@@ -1,13 +1,31 @@
 {
-    "name": "lightheader",
-  "version": "0.0.1",
-  "description": "React component for creating fast page header",
+  "name": "lightheader2",
+  "version": "0.0.2",
+  "description": "React component for creating page header",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-file index.js",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Godwin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react":"^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.18.0"
   },
   "repository": {
     "type": "git",
